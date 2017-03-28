@@ -1,4 +1,4 @@
-## Django Polls with PostgreSQL demo
+## Django Polls App Tutorial using PostgreSQL
 
 Forked from: https://github.com/mdamien/django-tutorial and updated to work with [PostgreSQL](https://www.postgresql.org/)
 
