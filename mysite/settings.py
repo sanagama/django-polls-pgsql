@@ -31,9 +31,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'pollsdb',
-        'USER': 'polls',        # replace this
+        'USER': 'polls@pgsqldemo2',        # replace this
         'PASSWORD': 'polls',     
-        'HOST': 'localhost',    # replace this
+        'HOST': 'pgsqldemo2.database.windows.net',    # replace this
         'PORT': '5432'
     }
 }
