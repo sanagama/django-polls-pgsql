@@ -19,7 +19,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/1.10/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'iruhl47piy2vx37=cvuc^$mj*7ft3t+9l*g7%!gqvv)0^8l7)='
+SECRET_KEY = 'my-s3cr3t-k3y'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -31,9 +31,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'pollsdb',
-        'USER': 'polls@pgsqldemo2',        # replace this
+        'USER': 'polls',        # replace this
         'PASSWORD': 'polls',     
-        'HOST': 'pgsqldemo2.database.windows.net',    # replace this
+        'HOST': 'localhost',    # replace this
         'PORT': '5432'
     }
 }
